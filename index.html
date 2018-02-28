@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latoyya Smith | Simon Says</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Righteous'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container center-block">
+        <div id="game-container">
+            <div id="btn-green" class="game-button"></div>
+            <div id="btn-red" class="game-button"></div>
+            <div id="btn-yellow" class="game-button"></div>
+            <div id="btn-blue" class="game-button"></div>
+
+            <div id="game-controls">
+                <div id="title" class="absolute-ctrl">simon</div>
+                <div id="display-control" class="absolute-ctrl"><span id="display-count"></span></div>
+                <div id="start-btn" class="absolute-ctrl"><span class="btn-text">Start</span></div>
+                <div id="strict-btn" class="absolute-ctrl"><span class="btn-text">Strict</span></div>
+                <div id="strict-light"></div>
+                <div id="on-off-btn" class="absolute-ctrl">
+                    <div id="on-off-switch"></div>
+                </div>
+
+                <span class="on-text">Off</span>
+                <span class="off-text">On</span>
+            </div>
+        </div>
+    </div>
+
+     <div class="container">
+        <div class="row">
+            <div class="strict-container  center-block">
+                <h4 class="strict-text">Strict Mode: Restarts game after an incorrect pattern is entered. </h4>
+            </div>
+        </div>
+    </div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

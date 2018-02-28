@@ -1,0 +1,201 @@
+body {
+  font-weight: 900;
+  background-image: url("/img/wood.jpeg");
+}
+
+.container {
+  width: 700px;
+}
+
+.absolute-ctrl {
+  position: absolute;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.game-container {
+  width: 600px;
+}
+
+.game-button {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  z-index: 8;
+  border: 8px solid #000;
+}
+
+#btn-blue,
+#btn-green,
+#btn-red,
+#btn-yellow {
+  border-top: 7px solid #000;
+  border-left: 8px solid #000;
+}
+
+#btn-green {
+  -moz-border-radius: 300px 0 0 0;
+  border-radius: 300px 0 0 0;
+  background-color: green;
+}
+
+.green-pressed{
+    background-color: #7EFC58 !important;
+}
+
+#btn-red {
+  -moz-border-radius: 0 300px 0 0;
+  border-radius: 0 300px 0 0;
+  background-color: red;
+}
+
+.red-pressed{
+    background-color: #F96D74 !important;
+}
+
+#btn-yellow {
+  -moz-border-radius: 0 0 0 300px;
+  border-radius: 0 0 0 300px;
+  background-color: yellow;
+}
+
+.yellow-pressed{
+    background-color: #F9F972 !important;
+}
+
+#btn-blue {
+  -moz-border-radius: 0 0 300px 0;
+  border-radius: 0 0 300px 0;
+  background-color: blue;
+}
+
+.blue-pressed{
+    background-color: #5E5EF9 !important;
+}
+
+#game-controls {
+  border: 15px solid #000;
+  height: 245px;
+  width: 245px;
+  border-radius: 150px;
+  background-color: #fff;
+  position: relative;
+  margin: 0;
+  z-index: 10;
+  top: 175px;
+  left: 168px;
+  
+}
+
+#title {
+  display: inline-block;
+  top: 20px;
+  left: 15px;
+  font-family: "Righteous", cursive;
+  font-weight: 900;
+  padding-left: 26px;
+  font-size: 3.5em;
+}
+
+#display-control {
+  height: 45px;
+  width: 60px;
+  border-radius: 6px;
+  background-color: #000;
+  top: 90px;
+  margin-left: 20px;
+  padding-left: 21px;
+  font-size: 2.3em;
+  color: #f00;
+}
+
+.display-true {
+  display: inline;
+}
+
+#start-btn {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  border: 5px solid #000;
+  background-color: #F00;
+  top: 95px;
+  left: 105px;
+}
+
+#strict-btn{
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  border: 5px solid #000;
+  background-color: #FF0;
+  top: 95px;
+  left: 160px;
+}
+
+#on-off-btn{
+  height: 35px;
+  width: 80px;
+  background-color: #000;
+  top: 153px;
+  left: 70px;
+}
+
+#on-off-switch{
+  display: inline-block;
+  height: 27px;
+  width: 30px;
+  margin: 4px;
+  background-color: lightgrey;
+  position: relative !important;
+  z-index: 40;
+}
+
+.btn-text{
+  position: absolute;
+  top: 27px;
+  left: -3px;
+}
+.on-text{
+  position: absolute;
+  left: 45px;
+  top: 160px;
+  display: inline-block;
+}
+
+.off-text{
+  position: absolute;
+  left: 155px;
+  top: 160px;
+  display: inline-block;
+}
+#strict-light{
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: #1D1F20;
+  height: 9px;
+  width: 9px;
+  left:173px;
+  top: 83px;
+  display: inline-block;
+}
+.strict-container{
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000;
+    background-clip: content-box;
+}
+.strict-text{
+    color: #FFF;
+    text-align: center;
+}
